@@ -10,3 +10,5 @@
 - File 4.fork.c - The system call fork (man 2 fork) creates a new child process, almost identical to the parent (the process that calls fork). Once fork successfully returns, two processes continue to run the same program, but with different stacks, datas and heaps.
 - File 4.1.fork.c - Using the return value of fork, it is possible to know if the current process is the father or the child: fork will return 0 to the child, and the PID of the child to the father.
 - File 5.wait.c - The wait system call (man 2 wait) suspends execution of the calling process until one of its children terminates.
+- File 6.fork+wait+execve.c - Exercise: fork + wait + execve
+Write a program that executes the command ls -l /tmp in 5 different child processes. Each child should be created by the same process (the father). Wait for a child to exit before creating a new child.
