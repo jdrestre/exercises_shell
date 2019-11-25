@@ -1,7 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
+/**
+ *main-prototype
+ *Return: 0
+ */
 int main(void)
 {
 	char *buffer = malloc(1024);
@@ -14,11 +17,11 @@ int main(void)
 		getline(&buffer, &len, stdin);
 		printf("buffer getline: %s", buffer);
 	}
-	token = strtok(&buffer," ");
+	token = strtok(&buffer, " ");
 	while (token)
 	{
 		printf("buffer strtok: %s", token);
-		token = strtok(NULL," ");
+		token = strtok(NULL, " ");
 	}
 	return (0);
 }

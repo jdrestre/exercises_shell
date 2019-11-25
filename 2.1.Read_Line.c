@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+/**
+ *main-prototype
+ *Return: 0
+ */
 int main(void)
 {
 	char *buffer = malloc(1024);

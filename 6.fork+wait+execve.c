@@ -12,10 +12,10 @@ int main(void)
 {
 	pid_t my_pid;
 	pid_t child_pid = 1;
+	my_pid = getpid();
 	int i = 0;
 	int status;
 	char *argv[] = {"bin/ls", "-l", "tmp/", NULL};
-	my_pid = getpid();
 
 	while (i <= 4 && (child_pid != 0))
 	{
@@ -25,7 +25,7 @@ int main(void)
 			printf("error");
 			return (1);
 		}
-		wait (&status);
+		wait(&status);
 		i++;
 	}
 	if (child_pid == 0)
