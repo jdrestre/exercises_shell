@@ -5,3 +5,4 @@
 - File 1.1._proc_sys_kernel_pid_max - Write a shell script that prints the maximum value a process ID can be.
 - File 2.0.av.c - (Write a program that prints all the arguments, without using ac.)
 - File 2.1.Read_Line.c - (getline) Write a program that prints "$ ", wait for the user to enter a command, prints it on the next line.
+- File 2.2.command_line_to_av.c - (strtok) Write a function that splits a string and returns an array of each word of the string.
