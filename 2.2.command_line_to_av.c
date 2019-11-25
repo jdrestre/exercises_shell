@@ -17,10 +17,10 @@ int main(void)
 		getline(&buffer, &len, stdin);
 		printf("buffer getline: %s", buffer);
 	}
-	token = strtok(&buffer, " ");
+	token = strtok(buffer, " ");
 	while (token)
 	{
-		printf("buffer strtok: %s", token);
+		printf("buffer strtok: %s\n", token);
 		token = strtok(NULL, " ");
 	}
 	return (0);
