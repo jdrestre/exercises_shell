@@ -16,12 +16,13 @@ int main(void)
 		printf("$ ");
 		getline(&buffer, &len, stdin);
 		printf("buffer getline: %s", buffer);
-	}
-	token = strtok(buffer, " ");
-	while (token)
-	{
-		printf("buffer strtok: %s\n", token);
-		token = strtok(NULL, " ");
+	
+		token = strtok(buffer, " ");
+		while (token)
+		{
+			printf("buffer strtok: %s\n", token);
+			token = strtok(NULL, " ");
+		}
 	}
 	return (0);
 }
