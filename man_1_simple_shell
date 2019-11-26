@@ -1,0 +1,36 @@
+.TH man 1 "28 Nov 2019" "0.32" "our own simple_shell man page"
+.SH NAME
+.B our own simple_shell
+- We try to build our own simple shell.
+.SH SYNOPSIS
+.SH Descripción y definición de Shell
+.SH
+.SH
+.SH
+.SH
+.SH DESCRIPTION
+we use the following files to build our own simple shell:
+- FILE 1
+- FILE 2
+- ETC
+.SH RETURN VALUE
+Nuestra Shell debe retornar la ejecución en salida estándar del comando digitado por el usuario
+Si el comando no existe debe decir que "No existe"
+.SH
+.SH EXAMPLES TEST
+we compare with printf function original our own _printf function with next examples:
+.SH
+.SH Examples
+.SH
+.SH
+.SH
+.SH
+.SH Results
+.SH
+.SH
+.SH
+.SH
+.SH ISSUES
+We have a issue in check #
+.SH AUTHORS
+Ricardo Barreto, Diego Rojas and Juan David Restrepo Z
