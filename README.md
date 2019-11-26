@@ -12,3 +12,4 @@
 - File 5.wait.c - The wait system call (man 2 wait) suspends execution of the calling process until one of its children terminates.
 - File 6.fork+wait+execve.c - Exercise: fork + wait + execve
 Write a program that executes the command ls -l /tmp in 5 different child processes. Each child should be created by the same process (the father). Wait for a child to exit before creating a new child.
+- Files generate-authors.sh and AUTHORS. 
